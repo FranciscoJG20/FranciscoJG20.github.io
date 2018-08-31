@@ -1,0 +1,17 @@
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.jumbotron {
+  border-radius: 0%;
+  color: white;
+}
+
+.bg-primary {
+  background-color: white !important;
+  height: 300px;
+}
+
+.list-inline-item > a {
+  color: black;
+}
