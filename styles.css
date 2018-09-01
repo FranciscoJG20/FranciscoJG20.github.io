@@ -7,7 +7,7 @@ body {
   color: white;
 }
 
-.bg-primary {
+#about {
   background-color: white !important;
   height: 275px;
 }
@@ -25,6 +25,7 @@ li:hover {
   background-color: white;
 }
 
-#projects {
+#projects,
+#skills {
   height: 500px;
 }
