@@ -9,13 +9,22 @@ body {
 
 .bg-primary {
   background-color: white !important;
-  height: 300px;
+  height: 275px;
 }
 
 .list-inline-item > a {
   color: black;
+  text-decoration: none;
 }
 
 .list-inline > li {
   font-size: 18px;
+}
+
+li:hover {
+  background-color: white;
+}
+
+#projects {
+  height: 500px;
 }
