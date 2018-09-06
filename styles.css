@@ -29,3 +29,29 @@ li:hover {
 #skills {
   height: 500px;
 }
+
+/* .bg-grey {
+  background: F6F6F6; */
+
+.project-image {
+  transition: 0.5s ease;
+}
+
+.thumbnail:hover .project-image {
+  opacity: 0.6;
+}
+
+/* .middle {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: relative;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+.middle:hover .github-link {
+  opacity: 1;
+}
