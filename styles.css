@@ -135,10 +135,6 @@ body {
   font-size: 18px;
 }
 
-li:hover {
-  background-color: white;
-}
-
 #projects,
 #skills {
   height: 500px;
