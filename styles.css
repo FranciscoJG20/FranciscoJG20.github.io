@@ -135,6 +135,11 @@ body {
   font-size: 18px;
 }
 
+.list-inline-item:hover a {
+  color: white;
+  transition: 0.4s ease;
+}
+
 #projects,
 #skills {
   height: 500px;
