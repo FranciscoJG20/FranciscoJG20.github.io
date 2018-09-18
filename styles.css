@@ -140,13 +140,13 @@ body {
   transition: 0.4s ease;
 }
 
-#projects {
+/* #projects {
   height: 500px;
 }
 
 #skills {
   height: 325px;
-}
+} */
 
 .project-image {
   transition: 0.5s ease;
