@@ -94,11 +94,6 @@ body {
   }
 }
 
-#about {
-  background-color: white !important;
-  height: 275px;
-}
-
 .fab {
   font-size: 30px;
   width: 45px;
@@ -109,7 +104,6 @@ body {
 }
 
 .fa-github {
-  text-decoration: none;
   color: white;
   position: relative;
   font-size: 40px;
@@ -133,20 +127,13 @@ body {
 
 .list-inline > li {
   font-size: 18px;
+  text-decoration: none;
 }
 
 .list-inline-item:hover a {
   color: white;
   transition: 0.4s ease;
 }
-
-/* #projects {
-  height: 500px;
-}
-
-#skills {
-  height: 325px;
-} */
 
 .project-image {
   transition: 0.5s ease;
