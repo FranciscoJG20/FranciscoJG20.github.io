@@ -140,9 +140,12 @@ body {
   transition: 0.4s ease;
 }
 
-#projects,
-#skills {
+#projects {
   height: 500px;
+}
+
+#skills {
+  height: 350px;
 }
 
 .project-image {
