@@ -132,7 +132,7 @@ body {
 
 .list-inline-item:hover a {
   color: white;
-  transition: 0.4s ease;
+  transition: 0.35s ease;
 }
 
 .project-image {
@@ -145,6 +145,7 @@ body {
 
 .thumbnail:hover .project-image {
   opacity: 0.2;
+  filter: grayscale(90%);
 }
 
 .middle {
@@ -166,4 +167,9 @@ a {
 hr {
   width: 100px;
   color: black;
+}
+
+.github-link > a,
+.live-link > a {
+  text-decoration: none;
 }
