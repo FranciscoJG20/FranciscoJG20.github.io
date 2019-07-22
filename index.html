@@ -8,169 +8,92 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Halant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">    
     <title>Francisco Gutierrez</title>
 </head>
 
 <body>
-    <div class="jumbotron text-center color-change-3x" style="background-color:#e15c31;">
-        <h1 class="display-3 tracking-in-expand-fwd">Francisco Gutierrez</h1>
-        <p style="font-size: 20px">I'm a Full Stack Developer!</p>
+    <div class="container-fluid text-center color-change-3x m-auto">
+        <h1 class="display-3">Francisco Gutierrez</h1>
+        <ul text-center>
+            <li>Writer</li>
+            <li class="rainbow">Technologist</li>
+            <li>Advocate</li>
+        </ul> 
+        <h5 class="py-2"> (Pronouns: He/They)</h5>
+        <button type="button" class="btn btn-outline-primary"><a href="mailto:fjgutierrez112@gmail.com? subject-subject text">Email</a></button>
+        <button type="button" class="btn btn-outline-primary"><a href="https://www.linkedin.com/in/franciscojgutierrez/">LinkedIn</a></button>
 
-        <ul class="list-inline">
-            <li class="list-inline-item">
-                <a href="#about">About</a>
-            </li>
-            <li class="list-inline-item">
-                <a href="#skills">Skills</a>
-            </li>
-            <li class="list-inline-item">
-                <a href="#projects">Projects</a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://drive.google.com/file/d/1YLA8E6v-5ZfYw9X47T5pv-ZSymko1YSB/view?usp=sharing" target="_blank">Resume</a>
-            </li>
-        </ul>
-
-        <a href="https://www.linkedin.com/in/franciscojgutierrez" class="fab fa-linkedin-in" alt="linkedin icon" target="_blank"
+        <!-- <a href="https://www.linkedin.com/in/franciscojgutierrez" class="fab fa-linkedin-in" alt="linkedin icon" target="_blank"
             rel="noopener noreferrer"></a>
         <a href="https://github.com/FranciscoJG20" class="fab fa-github" alt="github icon" target="_blank" rel="noopener
         noreferrer"></a>
         <a href="https://medium.com/@franciscogu" class="fab fa-medium-m" alt="medium icon" target="_blank" rel="noopener
-        noreferrer"></a>
+        noreferrer"></a> -->
     </div>
 
-    <section id="about">
-        <div class="container">
+    <section class="about">
+        <div class="container py-6">
             <div class="row">
-                <div class="col-lg-6 mx-auto text-center">
-                    <h2 class="section-heading">About Me</h2>
+                <div class="col-lg-8 col-md-12 col-sm-12 text-center mx-auto">
+                    <h2 class="section-heading">About Them</h2>
                     <br>
-                    <p>I am a full stack developer with a strong operations background. I lead with empathy and kindness, and understand how to start from scratch. I pride myself in relationship building, 
-                    and I seek to have a long-lasting social and business impact wherever I work.</p>
-                    <br>
-                    <p> During non-coding hours, I enjoy discussing and writing about diversity, inclusion, and equity. I firmly
-                        believe that diversity is an organization's greatest asset! </p>
+                    <p class="font-weight-light about-p"> Francisco is a Brooklyn-based writer and software engineer.</p>
+                    <p class="about-p">His varying work experience — from grassroots organizing for a political organization to leading corporate training workshops and introducing employees to emerging technologies — informed Francisco's eagerness to amplify human stories currently ignored by mainstream media. 
+                            Francisco has recently written and led content development for <a href="https://www.2050.work">2050Work</a>, a job board specifically for job seekers of color in tech and creative. He previously wrote for San Francisco paper, <a href="http://eltecolote.org/content/en/">El Tecolote</a>, where he started his own column, <i>"Latinxs Redefining Tech"</i> and highlighted the positive impact that Latinos (gender-inclusive) are having in the technology industry. 
+                            Additionally, Francisco has written about technology and his <a href="https://medium.com/faun/what-in-the-world-is-devops-a-conversation-with-david-arias-devops-engineer-at-oracle-8561240571a5">interview</a> with Oracle DevOps Engineer was published in Faun, a growing community of devops, full-stack engineers and IT professionals.</p> 
+                    <p class="about-p">Francisco holds a B.S. in Marketing from Georgetown University's McDonough School of Business and is a former employee and alumnus of General Assembly. </p>
                 </div>
             </div>
         </div>
     </section>
     <br>
-    <section id="skills" style="background-color: white;">
-        <div class="container">
-            <h2 class="section-heading text-center">Skills</h2>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h4 class="text-center">Languages and Frameworks</h4>
-                    <ul class="list-inline skills-list-1 text-center">
-                        <li>JavaScript</li>
-                        <li>NodeJS</li>
-                        <li>ExpressJS</li>
-                        <li>ReactJS</li>
-                        <li>Python</li>
-                        <li>Django</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h4 class="text-center">Methodologies and Databases</h4>
-                    <ul class="list-inline skills-list-2 text-center">
-                        <li>OOP</li>
-                        <li>MVC Pattern</li>
-                        <li>User Stories</li>
-                        <li>ERD</li>
-                        <li>MongoDB</li>
-                        <li>PostgreSQL</li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h4 class="text-center">Management and Deployment</h4>
-                    <ul class="list-inline skills-list-3 text-center">
-                        <li>Git</li>
-                        <li>Surge</li>
-                        <li>Heroku</li>
-                        <li>Command Line</li>
-                    </ul>
-                </div>
+    <div class="container py-6">
+        <h2 class="h3 text-center mb-5">What Colleagues are Saying...</h2>
+        <br>
+        <div class="row">
+                <div class="col-md">
+                        <blockquote class="text-center mb-5 mb-sm-0">
+                            <p class="d-block h5 mb-1">Cam Flowers</p>
+                            <span class="small text-uppercase text-muted"> Founder and CEO, Floreo Labs</span>
+                            <p class="quote text-muted mt-3 mb-0">
+                                "In my 5+ years of work as a software development educator and engineering manager, I’ve come across few technologists like Francisco who can simultaneously facilitate spaces of learning and personal growth for their colleagues while delivering high-quality code and timely product development. I was amazed at Francisco’s natural ability to collaborate with engineers at different levels of technical mastery. Francisco created dynamic team cohesion through highly effective project management and engineering leadership that is horizontal and inclusive in nature. 
+                                "
+                            </p>
+                        </blockquote>
+                    </div>
+            <div class="col-md">
+                <blockquote class="text-center mb-5 mb-sm-0">
+                    <p class="d-block h5">Kat Gabrielle</p>
+                    <span class="small text-uppercase text-muted"> Co-Founder and CEO, 2050Work</span>
+                    <p class="quote text-muted mt-3 mb-0">
+                        "Since coming onboard to 2050Work's content team as Content and Growth Lead, Francisco has effectively grown our content readership and product user base, led a team of marketing apprentices, and strategically improved our workflows and processes. "
+                    </p>
+                </blockquote>
             </div>
+            <div class="col-md">
+                    <blockquote class="text-center mb-5 mb-sm-0">
+                        <p class="d-block h5 mb-1">Paul Travis Klein</p>
+                        <span class="small text-muted text-uppercase"> Chief of Staff, Hatch Apps</span>
+                        <p class="quote text-muted mt-3 mb-0">
+                            "I met Francisco as part of Out in Tech, where I was looking for support in designing a diversity and inclusion survey for a startup. Francisco immediately offered support. He helped my team refine our questions and create a survey that our entire team volunteered to participate in. With Francisco’s questions and suggestions, we built a survey we were proud of, and more importantly, gave us the insight into our team to create a strong D&I action plan. I’m happy I was able to work with Francisco on this, and I hope we get the chance to work together again!"
+                    </blockquote>
+                </div>
         </div>
-    </section>
+    </div>
     <br>
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-heading text-center ">Projects</h2>
-            <br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img class="project-image" src="project1.png" alt="image of rugrats-themed memory card game" style="width:100%">
-                        <div class="middle text-center">
-                            <div class="github-link">
-                                <a href="https://github.com/FranciscoJG20/rugratsgame/tree/gh-pages" target="_blank">Github</a>
-                            </div>
-                            <div class="live-link">
-                                <a href="https://franciscojg20.github.io/rugratsgame/" target="_blank">Live</a>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="caption text-center">
-                        <p>This was my first project, which I built using HTML, CSS and JavaScript. It's fun -- give it a try!</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img class="project-image" src="project2.png" alt="Lights" style="width:100%">
-                        <div class="middle text-center">
-                            <div class="github-link">
-                                <a href="https://github.com/FranciscoJG20/BRA" target="_blank ">Github</a>
-                            </div>
-                            <div class="live-link">
-                                <a href="https://biasreporting.herokuapp.com/" target="_blank ">Live</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="caption text-center">
-                        <p>Bias Reporting Application (B.R.A.) is a company wide tool to empower employees to report bias-related
-                            incidents in the workplace. I integrated HTML, CSS, and JavaScript. The backend is a custom NodeJS/ExpressJS
-                            built server with a MongoDB for data storage.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img class="project-image" src="project4.png" alt="Lights" style="width:100%">
-                        <div class="middle text-center">
-                            <div class="github-link">
-                                <a href="https://github.com/FranciscoJG20/pear_review" target="_blank">Github</a>
-                            </div>
-                            <div class="live-link">
-                                <a href="https://pear-review.herokuapp.com/" target="_blank">Live</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="caption text-center">
-                        <p>Pear-Review Code is a pair-programming tool built on Python with Django and PostgreSQL. I implemented
-                            full CRUD on app models and included social authentication (Github).</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <section>
-        <div class="container">
+        <div class="container py-3 inspirational">
             <blockquote class="blockquote text-center">
-                <p> Think big; think disruptive. Execute with full passion.</p>
-                <footer class="blockquote-footer">Masayoshi Son</footer>
+                <p> Silence is powerful. But not as powerful as words. </p>
+                <footer class="blockquote-footer author-name">Sohaila Abdulali</footer>
             </blockquote>
         </div>
     </section>
 
-    <footer class="text-center color-change-3x" style="color: white; height:20px%;"> &copy; Francisco Gutierrez 2018</footer>
+    <footer class="text-center color-change-3x" style="color: black; height:18px; py-2"> &copy; Francisco Gutierrez 2019</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -178,6 +101,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src = "rainbow.js"></script>
 </body>
 
 </html>
